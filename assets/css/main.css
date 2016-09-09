@@ -3635,6 +3635,10 @@
 						margin-top: 2em;
 					}
 
+			.box .image.featured img.mobile-image  {
+				display: inherit;
+			}
+
 			.box .image.featured img.full-image  {
 				display: none;
 			}
