@@ -2298,6 +2298,10 @@
 				.box .image.featured:last-child img {
 					border-radius: 0 0 6px 6px;
 				}
+			
+			.box .image.featured img.mobile-image  {
+				display: none;
+			}
 
 /* Icon */
 
@@ -3630,6 +3634,10 @@
 						margin-bottom: -2em;
 						margin-top: 2em;
 					}
+
+			.box .image.featured img.full-image  {
+				display: none;
+			}
 
 		/* Banner */
 
