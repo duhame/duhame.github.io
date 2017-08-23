@@ -1,152 +1,491 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Honeycommb</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body class="landing">
-		<div id="page-wrapper">
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-			<!-- Header -->
-				<header id="header" class="alt">
-				
-					<h1><a href="index.html">HONEYCOMMB</a><img src="images/honeycommb-logo-01.png" class="header-logotype" border="0" alt="Honeycommb"></h1>
-					<nav id="nav">
-						<ul style="display: none;">
-							<li><a href="index.html">TOP</a></li>
-							<li><a href="index.html">CONTACT</a></li>
-						</ul>
-					</nav>
-				</header>
+<head>
 
-			<!-- Banner -->
-				<section id="banner">
-					<img src="images/honeycommb-logo-01.png" class="logotype" border="0" alt="Honeycommb">
-					<h2>Honeycommb</h2>
-					<p>A social platform for brands and interest based communities.</p>
-					<ul class="actions">
-<!--				<li><a href="#" class="button special">Sign Up</a></li> -->
-						<li><a href="#" class="button">Learn More</a></li>
-					</ul>
-				</section>
+    <!--- basic page needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <title>Dazzle</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-			<!-- Main -->
-				<section id="main" class="container">
+    <!-- mobile specific metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-					<section class="box special">
-						<header class="major">
-							<h2>Honeycommb is taking online social communities
-							<br />
-							and social scale to the next level.</h2>
-							<p>The Honeycommb social platform gives valuable communities the chance to thrive online by providing an environment they can cultivate and benefit from without giving anything away.</p>
-						</header>
-						<span class="image featured"><img class="full-image" src="images/img-iphone-text-01.jpg" alt="" /><img class="mobile-image" src="images/img-iphone-text-mobile-01.jpg" alt="" /></span>
-<!-- Remove for now
-						<div class="background fixed"> </div>
+    <!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+	================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- header 
+   ================================================== -->
+   <header id="header" class="row">   
+
+   		<div class="header-logo">
+	        <a href="index.html">Talegate</a>
+	    </div>
+
+	   	<nav id="header-nav-wrap">
+			<ul class="header-main-nav">
+				<li class="current"><a class="smoothscroll"  href="#home" title="home">Top</a></li>
+        <li><a class="smoothscroll"  href="#about" title="about">The App</a></li>
+				<li><a class="smoothscroll"  href="#testimonials" title="testimonials">Testimonials</a></li>
+				<!-- <li><a class="smoothscroll"  href="#download" title="download">Download</a></li> -->
+			</ul>
+
+            <a href="#" title="sign-up" class="button button-primary cta">iOS</a>
+            <a href="#" title="sign-up" class="button button-primary cta">Android</a>
+		</nav>
+
+		<a class="header-menu-toggle" href="#"><span>Menu</span></a>    	
+   	
+   </header> <!-- /header -->
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home" data-parallax="scroll" data-image-src="images/hero-bg-02.jpg" data-natural-width=3000 data-natural-height=2000>
+
+        <div class="overlay"></div>
+        <div class="home-content">        
+
+            <div class="row contents">                     
+                <div class="home-content-left">
+
+                    <h3 data-aos="fade-up">Welcome to Talegate</h3>
+
+                    <h1 data-aos="fade-up">
+                        Where passionate </br>
+                        college football </br>
+                        fans unite!
+                    </h1>
+
+                    <div class="buttons" data-aos="fade-up">
+                        <a href="#about" class="smoothscroll button stroke">
+                            <span class="icon-circle-down" aria-hidden="true"></span>
+                            Learn More
+                        </a>
+                        <a href="http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=39b54a" data-lity class="button stroke">
+                            <span class="icon-play" aria-hidden="true"></span>
+                            Watch Video
+                        </a>
+                    </div>                                         
+
+                </div>
+
+                <div class="home-image-right">
+                    <img src="images/iphone-app-470-02.png" 
+                        srcset="images/iphone-app-470-02.png 1x, images/iphone-app-940-02.png 2x"  
+                        data-aos="fade-up">
+                </div>
+            </div>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social-list">
+            <li>
+                <a href="#"><i class="fa fa-facebook-square"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+<!--
+            <li>
+                <a href="#"><i class="fa fa-youtube-play"></i></a>
+            </li>
 -->
-					</section>
+        </ul>
+        <!-- end home-social-list -->
 
-					<section class="box special features">
-						<div class="features-row">
-							<section>
-								<span class="icon major fa-bolt accent2"></span>
-								<h3>Your Community</h3>
-								<p>Your audience is valuable. Their participation with your brand is valuable. Don't give that away to other social networks that don't have your best interests in mind.</p>
-							</section>
-							<section>
-								<span class="icon major fa-lock accent5"></span>
-								<h3>Complete Control</h3>
-								<p>Steer your brand and how your audience interacts with it. Honeycommb comes with administrative tools that give you complete authority over your community.</p>
-							</section>
-						</div>
-						<div class="features-row">
-							<section>
-								<span class="icon major fa-cloud accent4"></span>
-								<h3>Mobile &amp; Web</h3>
-								<p>Honeycommb is a cloud based service with app and Web coverage for all devices and browsers and administrative tools that can be accessed from anywhere.</p>
-							</section>
-							<section>
-								<span class="icon major fa-area-chart accent3"></span>
-								<h3>Rich Insight</h3>
-								<p>Knowing how your community behaves means knowing how, where, and what to apply your effort and dollars to in order to keep your audience engaged.</p>
-							</section>
-						</div>
-					</section>
+        <div class="home-scrolldown">
+            <a href="#about" class="scroll-icon smoothscroll">
+                <span>Scroll Down</span>
+                <i class="icon-arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
 
-					<div class="row">
-						<div class="6u 12u(narrower)">
+    </section> <!-- end home -->  
 
-							<section class="box special">
-								<span class="image featured"><img src="images/header-app-ios-01.jpg" alt="" /></span>
-								<h3>Infield Chatter for iOS</h3>
-								<p>Download Infield Chatter for your iPhone.</p>
-								<ul class="actions">
-									<li><a href="#" class="button alt">Coming Soon</a></li>
-								</ul>
-							</section>
 
-						</div>
-						<div class="6u 12u(narrower)">
+    <!-- about
+    ================================================== -->
+    <section id="about">
 
-							<section class="box special">
-								<span class="image featured"><img src="images/header-app-android-01.jpg" alt="" /></span>
-								<h3>Infield Chatter for Android</h3>
-								<p>Download Infield Chatter for your Android device.</p>
-								<ul class="actions">
-									<li><a href="#" class="button alt">Coming Soon</a></li>
-								</ul>
-							</section>
+        <div class="row about-intro">
 
-						</div>
-					</div>
+            <div class="col-four">
+                <h1 class="intro-header" data-aos="fade-up">About Talegate</h1>
+            </div>
+            <div class="col-eight">
+                <p class="lead" data-aos="fade-up">
+                    Talegate is more than an app. Ex aliqua esse proident ullamco voluptate. Nisi nisi nisi aliqua eiusmod dolor dolor proident deserunt occaecat elit Lorem reprehenderit. Id culpa veniam ex aliqua magna elit pariatur do nulla. Excepteur enim magna veniam labore veniam sint.
+                </p>
+            </div>                       
+            
+        </div>
 
-				</section>
+        <div class="row about-features">
 
-			<!-- CTA -->
-				<section id="cta" style="display: none;">
+            <div class="features-list block-1-3 block-m-1-2 block-mob-full group">
 
-					<h2>Sign up for beta access</h2>
-					<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
+                <div class="bgrid feature" data-aos="fade-up">	
 
-					<form>
-						<div class="row uniform 50%">
-							<div class="8u 12u(mobilep)">
-								<input type="email" name="email" id="email" placeholder="Email Address" />
-							</div>
-							<div class="4u 12u(mobilep)">
-								<input type="submit" value="Sign Up" class="fit" />
-							</div>
-						</div>
-					</form>
+                    <span class="icon"><i class="icon-window"></i></span>            
 
-				</section>
+                    <div class="service-content">	
 
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Honeycommb - All rights reserved 2016</li></li>
-					</ul>
-				</footer>
+                        <h3>Your College Football Home</h3>
 
-		</div>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                        </p>
+                        
+                    </div> 	         	 
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollgress.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+                    </div> <!-- /bgrid -->
 
-	</body>
+                    <div class="bgrid feature" data-aos="fade-up">	
+
+                        <span class="icon"><i class="icon-image"></i></span>                          
+
+                    <div class="service-content">	
+                        <h3>Your Stories</h3>  
+
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                        </p>
+
+                        
+                    </div>	                          
+
+                </div> <!-- /bgrid -->
+
+                <div class="bgrid feature" data-aos="fade-up">
+
+                    <span class="icon"><i class="icon-paint-brush"></i></span>		            
+
+                    <div class="service-content">
+                        <h3>Your Teams</h3>
+
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                        </p> 
+                            
+                    </div> 	            	               
+
+                </div> <!-- /bgrid -->
+
+                    <div class="bgrid feature" data-aos="fade-up">
+
+                        <span class="icon"><i class="icon-file"></i></span>	              
+
+                    <div class="service-content">
+                        <h3>Your People</h3>
+
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                        </p> 
+                        
+                    </div>                
+
+                    </div> <!-- /bgrid -->
+
+                <div class="bgrid feature" data-aos="fade-up">
+
+                    <span class="icon"><i class="icon-sliders"></i></span>	            
+
+                    <div class="service-content">	
+                        <h3>Contests & Giveaways</h3>
+
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                        </p>                            
+                    </div>	               
+
+                </div> <!-- /bgrid -->
+
+                <div class="bgrid feature" data-aos="fade-up">
+
+                    <span class="icon"><i class="icon-gift"></i></span>	   	           
+
+                    <div class="service-content">
+                        <h3>Mobile & Web</h3>
+
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                        </p> 
+                            
+                    </div>	               
+
+                </div> <!-- /bgrid -->
+
+            </div> <!-- end features-list -->
+
+        </div> <!-- end about-features -->
+<!--
+        <div class="row about-how">
+          
+            <h1 class="intro-header" data-aos="fade-up">How The App Works?</h1>           
+
+            <div class="about-how-content" data-aos="fade-up">
+                <div class="about-how-steps block-1-2 block-tab-full group">
+
+                    <div class="bgrid step" data-item="1">
+                        <h3>Sign-Up</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                        </p> 
+                    </div>
+
+                    <div class="bgrid step" data-item="2">
+                        <h3>Upload</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                        </p> 
+                    </div>               
+               
+                    <div class="bgrid step" data-item="3">
+                        <h3>Create</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                        </p> 
+                    </div>
+
+                    <div class="bgrid step" data-item="4">
+                        <h3>Publish</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                        </p> 
+                    </div>  
+
+                </div>           
+           </div> <!-- end about-how-content -->
+
+        </div> <!-- end about-how -->
+-->
+        <div class="row about-bottom-image">
+
+           <img src="images/app-screens-1200-01.png" 
+                srcset="images/app-screens-600-01.png 600w, 
+                        images/app-screens-1200-01.png 1200w, 
+                        images/app-screens-2800-01.png 2800w" 
+                sizes="(max-width: 2800px) 100vw, 2800px"
+                alt="App Screenshots" data-aos="fade-up">
+
+        </div>  <!-- end about-bottom-image -->       
+        
+    </section> <!-- end about -->  
+
+    <!-- Testimonials Section
+    ================================================== -->
+    <section id="testimonials">
+
+        <div class="row">
+            <div class="col-twelve">
+                <h1 class="intro-header" data-aos="fade-up">What They Say About Our App.</h1>
+            </div>   		
+        </div>   	
+
+        <div class="row owl-wrap">
+
+            <div id="testimonial-slider"  data-aos="fade-up">
+
+                <div class="slides owl-carousel">
+
+                    <div>
+                        <p>
+                        Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                        to do what you believe is great work. And the only way to do great work is to love what you do.
+                        If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                        </p> 
+
+                        <div class="testimonial-author">
+                                <img src="images/avatars/user-02.jpg" alt="Author image">
+                                <div class="author-info">
+                                    Steve Jobs
+                                    <span class="position">CEO, Apple.</span>
+                                </div>
+                        </div>                 
+                    </div> 
+
+                    <div>
+                        <p>
+                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                        nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.    
+                        </p>
+
+                        <div class="testimonial-author">
+                                <img src="images/avatars/user-03.jpg" alt="Author image">
+                                <div class="author-info">
+                                    John Doe
+                                    <span>CEO, ABC Corp.</span>
+                                </div>
+                        </div>                                         
+                    </div> 
+
+                </div> <!-- end slides -->
+
+            </div> <!-- end testimonial-slider -->         
+            
+        </div> <!-- end flex-container -->
+
+    </section> <!-- end testimonials -->
+    
+
+    <!-- download
+    ================================================== -->
+    <section id="download">
+
+        <div class="row">
+            <div class="col-full">
+                <h1 class="intro-header"  data-aos="fade-up">Download Talegate</h1>
+
+                <p class="lead" data-aos="fade-up">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                </p>
+
+                <ul class="download-badges">
+                    <li><a href="#" title="" class="badge-appstore"  data-aos="fade-up">App Store</a></li>
+                    <li><a href="#" title="" class="badge-googleplay" data-aos="fade-up">Play Store</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+    </section> <!-- end download -->    
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+
+        <div class="footer-main">
+            <div class="row">  
+
+                <div class="col-three md-1-3 tab-full footer-info">            
+
+                    <div class="footer-logo"></div>
+
+                    <p>
+                    Talegate is made and supported by Honeycommb, a social platform for brands, influencers, and interest based groups. Talegate is focused on the exciting world of College Football in the United States.
+                    </p>
+
+                    <ul class="footer-social-list">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                    
+                    
+                </div> <!-- end footer-info -->
+
+                <div class="col-three md-1-3 tab-1-2 mob-full footer-contact">
+
+                    <h4>Contact</h4>
+
+                    <p>
+                    27-43 Wormwood Street<br>
+                    Suite 420 <br>
+                    Boston, MA 02116 US<br>		        
+                    </p>
+
+                    <p>
+                    hello@honeycommb.com <br>
+                    </p>                    
+
+                </div> <!-- end footer-contact -->  
+
+                <div class="col-two md-1-3 tab-1-2 mob-full footer-site-links">
+
+                    <h4>Site Links</h4>
+
+                    <ul class="list-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>	      		
+                            
+                </div> <!-- end footer-site-links --> 
+
+                <div class="col-four md-1-2 tab-full footer-subscribe">
+
+                    <h4>Our Newsletter</h4>
+
+                    <p>We don't send many newsletters but we make it worthwhile when we do. Add your email address to stay informed.</p>
+
+                    <div class="subscribe-form">
+                
+                        <form id="mc-form" class="group" novalidate="true">
+
+                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required=""> 
+                
+                            <input type="submit" name="subscribe" value="Send">
+                
+                            <label for="mc-email" class="subscribe-message"></label>
+                
+                        </form>
+
+                    </div>	      		
+                            
+                </div> <!-- end footer-subscribe -->         
+
+            </div> <!-- /row -->
+        </div> <!-- end footer-main -->
+
+
+      <div class="footer-bottom">
+
+      	<div class="row">
+
+      		<div class="col-twelve">
+	      		<div class="copyright">
+		         	<span>© Copyright Talegate 2017, </span> 
+		         	<span>a <a href="http://www.honeycommb.com/">Honeycommb</a> company</span>		         	
+		         </div>
+
+		         <div id="go-top">
+		            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"></i></a>
+		         </div>         
+	      	</div>
+
+      	</div> <!-- end footer-bottom -->     	
+
+      </div>
+
+    </footer>
+
+    <div id="preloader"> 
+    	<div id="loader"></div>
+    </div>  
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
 </html>
