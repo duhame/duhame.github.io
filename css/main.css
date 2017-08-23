@@ -1461,7 +1461,7 @@ h1.intro-header::before {
 
 .home-content-left h3 {
   color: rgba(255, 207, 50, 1);
-  font-family: "unineue-regular", sans-serif;
+  font-family: "unineue-regular-italic", sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
   text-transform: uppercase;
@@ -1470,7 +1470,8 @@ h1.intro-header::before {
 }
 
 .home-content-left h1 {
-  font-family: "unineue-heavy", sans-serif;
+  font-family: "unineue-heavy-italic", sans-serif;
+  text-transform: uppercase;
   font-size: 5.2rem;
   letter-spacing: -.05rem;
   line-height: 1.269;
