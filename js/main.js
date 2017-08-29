@@ -83,7 +83,7 @@
 		$(".owl-carousel").owlCarousel({	
 	      loop: true,
   			nav: false,
-			autoHeight: true,
+			autoHeight: false,
   			items: 1
 		});
 
