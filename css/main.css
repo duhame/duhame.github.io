@@ -157,7 +157,7 @@ p img {
 }
 
 p.lead {
-  font-family: "unineue-book", sans-serif;
+  font-family: "unineue-regular", sans-serif;
   font-size: 2.1rem;
   line-height: 1.857;
   color: #838383;
@@ -1872,6 +1872,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   font-size: 1.9rem;
   color: #151515;
   margin-bottom: 3rem;
+}
+
+.service-content p {
+  font-family: "unineue-regular", sans-serif;
 }
 
 .about-how {
