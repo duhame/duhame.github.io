@@ -1959,6 +1959,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .about-bottom-image img {
   vertical-align: bottom;
+  margin-top: 60px;
 }
 
 
